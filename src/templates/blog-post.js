@@ -3,6 +3,7 @@ import Img from "gatsby-image"
 import { graphql } from "gatsby"
 import postStyles from "./blogPost.module.scss"
 import Layout from "../components/layout"
+import Metadata from "../components/metadata"
 
 export const query = graphql`
   query($slug: String!) {
@@ -26,6 +27,7 @@ export const query = graphql`
 const BlogPost = props => {
   return (
     <Layout>
+      <Metadata title={props.data.markdownRemark.frontmatter.title} />
       <div className={postStyles.content}>
         <h1>{props.data.markdownRemark.frontmatter.title}</h1>
         <span className={postStyles.meta}>
