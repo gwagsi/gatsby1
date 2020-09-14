@@ -1,12 +1,14 @@
 ---
 title: "Second Gatsby Blog Post"
 date: "2020-01-19"
+feature: "../images/featured2.jpg"
 ---
 
 Seprehenderit accusamus, explicabo eligendi necessitatibus soluta!
 
 ## Ipsam mollitia
 
+![gatsby tutorial](../images/second.jpg)
 alias temporibus dictorem ipsum dolor sit amet consectetur adipisicing elit.
 
 ## Excepturi maxime
