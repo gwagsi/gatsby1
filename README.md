@@ -9,6 +9,6 @@ After that, I learned how to set up a basic SEO for my Gatsby site. And lastly, 
 
 Here is the link:
 
-https://gallant-hamilton-0d659e.netlify.app/
+https://practiceg.netlify.app/
 
 All my images were gotten from pexels.com
